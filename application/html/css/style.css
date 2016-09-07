@@ -1,0 +1,186 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11.08.2016, 0:14:14
+    Author     : SERG
+*/
+body{
+	margin: 0px;
+}
+#wraper{
+    width: 100%;
+    height: 100%;
+	background-color: #f9f9f9;
+}
+.heder{
+    background-color: #abd6ce;
+	overflow: auto;
+}
+.photo{
+	margin: 15px 30px 15px 35px;
+    width: 90px;
+    height: 90px;
+	float: left;
+    background-image: url('http://portfolio/application/html/images/photo.png');
+    border: 1px solid;
+    border-radius: 65px;
+}
+.mesege{
+	margin-top: 22px;
+	width: 500px;
+	height: 75px;
+	float: left;
+	background: #fff;
+}
+.mesege > p {
+	margin: 0px 0px 0px 10px;
+}
+.mesege::before {
+	content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 38px;
+    left: 147px;
+    border-top: 20px solid transparent;
+    border-right: 20px solid #fff;
+    border-bottom: 20px solid transparent;
+}
+.content{
+	overflow: auto;
+}
+#list-wordpress{
+    margin: 10px 0px 0px 30px;
+    background-color: #64e66d;;
+    width: 20%;
+    height: 50px;
+    float: left;
+    border: 2px solid #cec4c4;
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: none;
+}
+#list-wordpress > p, #list-html5 > p {
+	font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #7c7b80;
+}
+#list-wordpress > p:before{
+	content: url(../images/Wordpress.png);
+}
+#list-html5 > p:before{
+	content: url(../images/HTML5.png);
+}
+#list-wordpress > p:before, #list-html5 > p:before{
+    position: relative;
+    left: -10px;
+	top: 2px;
+}
+.list-javascript{
+    margin: 10px 0px 0px 0px;
+    background-color: #fff;
+    width: 20%;
+    height: 50px;
+    float: left;
+    border: 2px solid #cec4c4;
+    border-radius: 15px 15px 0px 0px;
+    border-left: none;
+    border-bottom: none;
+}
+.list-javascript:hover,#list-html5:hover,#list-wordpress:hover{
+	cursor: pointer;
+        background-color: #cec4c4;
+}
+#list-html5{
+	margin: 10px 0px 0px 0px;
+    background-color: #fff;
+    width: 20%;
+    height: 50px;
+    float: left;
+    border: 2px solid #cec4c4;
+    border-radius: 15px 15px 0px 0px;
+    border-left: none;
+    border-bottom: none;
+}
+#line{
+	overflow: auto;
+}
+.line1{
+    float: left;
+    border-left: 2px solid #cec4c4;
+	background-color: #fff;
+    width: 20%;
+    height: 2px;
+    margin: 0px 0px 0px 30px;
+}
+.line2{
+    float: left;
+    border-top: 2px solid #cec4c4;
+    width: 65%;
+    margin: 0;
+}
+#line-html5{
+	overflow: auto;
+        display: none;
+}
+.line3{
+    float: left;
+    border-top: 2px solid #cec4c4;
+    background-color: #fff;
+    width: 20.3%;
+    margin: 0px 0px 0px 30px;
+}
+.line4{
+    float: left;
+    border-right: 2px solid #cec4c4;
+    background-color: #fff;
+    width: 20%;
+    height: 2px;
+    margin: 0;
+}
+.line5{
+    float: left;
+    margin: 0;
+    width: 44.7%;
+    border-top: 2px solid #cec4c4;
+}
+#text{
+    width: 84.9%;
+    overflow: auto;
+    height: 1000px;
+    margin: 0px 0px 0px 30px;
+    border: 2px solid #cec4c4;
+    border-top: none;
+    background-color: #fff;
+}
+.block1, .block2, .block3{
+    margin: 35px 35px 0px 40px;
+    width: 250px;
+    height: 350px;
+    border: 1px solid;
+    float: left;
+}
+.block1{
+    background-image: url(/application/html/images/ThemWP/block1m.png);
+}
+.block1:hover{
+	transform: scale(1.3);
+}
+.block2{
+    background-image: url(/application/html/images/ThemWP/block2m.png);
+}
+.block3{
+    background-image: url(/application/html/images/ThemWP/block3m.png);
+}
+#text-html5{
+    display: none;
+    width: 84.9%;
+    height: 1000px;
+    margin: 0px 0px 0px 30px;
+    border: 2px solid #cec4c4;
+    border-top: none;
+    background-color: #fff;   
+}
